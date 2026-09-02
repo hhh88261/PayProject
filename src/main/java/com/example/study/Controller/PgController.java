@@ -1,6 +1,9 @@
 package com.example.study.Controller;
 
+import org.springframework.stereotype.Controller;
+
 // PG사 API
+@Controller
 public class PgController {
 
     /* 1. PG 결제수단 등록 -> 카드 정보 등록 및 완료 -> AuthKey 발급 */

@@ -1,6 +1,9 @@
 package com.example.study.Controller;
 
+import org.springframework.stereotype.Controller;
+
 // 신규 결제 수단 등록
+@Controller
 public class RegistPayMethodController {
 
     /* 1. 결제수단 등록 -> RegistId 발급 -> PG URL 반환 */
