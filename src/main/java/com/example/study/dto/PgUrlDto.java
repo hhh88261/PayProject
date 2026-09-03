@@ -7,6 +7,8 @@ import lombok.Setter;
 @Setter
 public class PgUrlDto {
 
+    private String code;
+    private String errorCode;
     private String registId;
     private String pgUrl;
 

@@ -7,8 +7,18 @@ import lombok.Setter;
 @Setter
 public class BillingKeyDto {
 
-    private String AuthKey;
+    private int code;
+    private String errorCode;
+    private String billingKey;
+    private String checkOutUrl;
 
 
+
+    public BillingKeyDto(int code, String errorCode, String billingKey, String checkOutUrl){
+        this.code = code;
+        this.errorCode = errorCode;
+        this.billingKey = billingKey;
+        this.checkOutUrl = checkOutUrl;
+    }
 
 }
