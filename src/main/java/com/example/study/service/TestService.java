@@ -1,6 +1,6 @@
-package com.example.study.Service;
+package com.example.study.service;
 
-import com.example.study.Repository.TestRepository;
+import com.example.study.repository.TestRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,4 +1,4 @@
-package com.example.study.Service;
+package com.example.study.service;
 
 public interface TestServiceInterface {
 }

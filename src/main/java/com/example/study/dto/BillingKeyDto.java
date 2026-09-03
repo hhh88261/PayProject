@@ -1,0 +1,14 @@
+package com.example.study.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class BillingKeyDto {
+
+    private String AuthKey;
+
+
+
+}
